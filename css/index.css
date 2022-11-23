@@ -4,3 +4,13 @@
     box-sizing: border-box;
     background-color: #000;
 }
+
+main {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

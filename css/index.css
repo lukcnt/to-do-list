@@ -47,6 +47,10 @@ body {
     color: #34073D;
 }
 
+#add-task-form input:focus {
+    outline: none;
+}
+
 #add-button {
     background: #fff;
     border: 1px solid #34073D;

@@ -9,10 +9,17 @@ body {
     width: 100vw;
     height: auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
     font-family: Helvetica;
     padding-top: 100px;
+}
+
+#tasks-container {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

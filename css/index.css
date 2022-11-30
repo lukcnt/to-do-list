@@ -29,6 +29,11 @@ body {
     width: 100%;
 }
 
+#add-task-form {
+    display: flex;
+    flex-direction: row;
+}
+
 #add-task-form input {
     border: 1px solid #34073D;
     background: #fff;
@@ -40,4 +45,15 @@ body {
 
 #add-task-form input::placeholder {
     color: #34073D;
+}
+
+#add-button {
+    background: #fff;
+    border: 1px solid #34073D;
+    cursor: pointer;
+    transition: .5s;
+    width: 60px;
+    height: 53px;
+    top: 0;
+    right: 0;
 }

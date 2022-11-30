@@ -26,6 +26,7 @@ body {
 
 #tasks-header {
     margin-top: 40px;
+    width: 100%;
 }
 
 #add-task-form input {

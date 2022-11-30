@@ -27,3 +27,12 @@ body {
 #tasks-header {
     margin-top: 40px;
 }
+
+#add-task-form input {
+    border: 1px solid #34073D;
+    background: #fff;
+    color: #34073D;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+}

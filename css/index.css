@@ -92,3 +92,7 @@ body {
     transition: .5s;
     font-weight: bold;
 }
+
+.hide {
+    display: none;
+}

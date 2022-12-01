@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #000;
 }
 
 body {
@@ -14,6 +13,7 @@ body {
     color: #fff;
     font-family: Helvetica;
     padding-top: 100px;
+    background-color: #000
 }
 
 #tasks-container {

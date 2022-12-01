@@ -71,3 +71,8 @@ body {
     background-color: #fff;
     color: #34073D;
 }
+
+#tasks-list-container {
+    width: 100%;
+    height: auto;
+}

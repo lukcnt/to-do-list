@@ -96,3 +96,9 @@ body {
 .hide {
     display: none;
 }
+
+#task-list li.done {
+    background-color: #000;
+    color: #fff;
+    text-decoration: line-through;
+}

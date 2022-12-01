@@ -81,3 +81,14 @@ body {
     list-style: none;
     padding-left: 0;
 }
+
+#task-list li {
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    color: #34073D;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    transition: .5s;
+    font-weight: bold;
+}

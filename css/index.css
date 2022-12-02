@@ -34,12 +34,6 @@ body {
     margin-bottom: 20px;
 }
 
-/* #tasks-header {
-    margin-top: 40px;
-    width: 100%;
-} */
-
-
 #add-task-form {
     display: flex;
     flex-direction: row;
@@ -47,6 +41,7 @@ body {
 
 #add-task-form input {
     border: 1px solid #34073D;
+    border-radius: 30px;
     background: #fff;
     color: #34073D;
     padding: 15px;

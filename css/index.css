@@ -26,6 +26,7 @@ body {
 
 #tasks-header {
     width: 100%;
+    margin-bottom: 40px;
 }
 
 #tasks-header h1 {

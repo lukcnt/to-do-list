@@ -95,13 +95,19 @@ body {
 
 #task-list li {
     height: 50px;
-    line-height: 50px;
+    border-radius: 40px;
     background-color: #fff;
     color: #34073D;
     margin-bottom: 10px;
     padding-left: 15px;
     transition: .5s;
     font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
 }
 
 .hide {

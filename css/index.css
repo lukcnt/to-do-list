@@ -82,6 +82,12 @@ body {
     height: auto;
 }
 
+#tasks-list-container h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
 #task-list {
     list-style: none;
     padding-left: 0;

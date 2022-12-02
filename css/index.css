@@ -25,9 +25,20 @@ body {
 }
 
 #tasks-header {
-    margin-top: 40px;
     width: 100%;
 }
+
+#tasks-header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* #tasks-header {
+    margin-top: 40px;
+    width: 100%;
+} */
+
 
 #add-task-form {
     display: flex;

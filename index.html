@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0" />
     <link rel="stylesheet" href="./css/index.css">
     <title>To Do List</title>
 </head>
@@ -14,7 +15,9 @@
             <form action="" id="add-task-form">
                 <input type="text" id="task-title" placeholder="What are you going to do?">
                 <button id="add-button" type="submit">
-                    <ion-icon id="add-icon" name="add-outline"></ion-icon>
+                    <span class="material-symbols-outlined" id="add-button-icon">
+                        add
+                    </span>
                 </button>
             </form>
         </section>
@@ -23,28 +26,44 @@
             <ul id="task-list">
                 <li class="task-box">
                     <span class="task-title">Teste</span>
-                    <ion-icon class="done-button" name="checkmark-outline"></ion-icon>
-                    <ion-icon class="remove-button" name="close-outline"></ion-icon>
+                    <div class="task-buttons">
+                        <span class="material-symbols-outlined done-button">
+                            done
+                        </span>
+                        <span class="material-symbols-outlined remove-button">
+                            close
+                        </span>
+                    </div>
                 </li>
             </ul>
             <ul id="task-list">
                 <li class="task-box">
-                    <span class="task-title">Teste2</span>
-                    <ion-icon class="done-button" name="checkmark-outline"></ion-icon>
-                    <ion-icon class="remove-button" name="close-outline"></ion-icon>
+                    <span class="task-title">Teste</span>
+                    <div class="task-buttons">
+                        <span class="material-symbols-outlined done-button">
+                            done
+                        </span>
+                        <span class="material-symbols-outlined remove-button">
+                            close
+                        </span>
+                    </div>
                 </li>
             </ul>
             <ul id="task-list">
                 <li class="task-box">
-                    <span class="task-title">Teste3</span>
-                    <ion-icon class="done-button" name="checkmark-outline"></ion-icon>
-                    <ion-icon class="remove-button" name="close-outline"></ion-icon>
+                    <span class="task-title">Teste</span>
+                    <div class="task-buttons">
+                        <span class="material-symbols-outlined done-button">
+                            done
+                        </span>
+                        <span class="material-symbols-outlined remove-button">
+                            close
+                        </span>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
     <script src="./src/index.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

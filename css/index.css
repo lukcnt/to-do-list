@@ -60,22 +60,20 @@ body {
 #add-button {
     background: #fff;
     border: 1px solid #34073D;
+    border-radius: 40px;
     cursor: pointer;
     transition: .5s;
     width: 60px;
     height: 53px;
 }
 
-#add-icon:hover {
-    background-color: #34073D;
-    color: #fff;
+#add-button-icon {
+    font-size: 30px;
 }
 
-#add-icon {
-    width: 100%;
-    height: 100%;
-    background-color: #fff;
-    color: #34073D;
+#add-button:hover {
+    background-color: #560e64;
+    color: #fff;
 }
 
 #tasks-list-container {

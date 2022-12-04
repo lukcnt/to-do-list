@@ -112,13 +112,34 @@ body {
 }
 
 .task-buttons {
-    width: 18%;
+    width: 20%;
+    height: 90%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.done-button,
+.remove-button {
+    width: 45%;
     height: 100%;
-    margin-right: 15px;
+    font-size: 32px;
+    border-radius: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    justify-content: space-around;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.done-button:hover {
+    color: #fff;
+    background-color: #FFBD00;
+}
+
+.remove-button:hover {
+    color: #fff;
+    background-color: #E60000;
 }
 
 .hide {

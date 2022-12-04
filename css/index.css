@@ -41,7 +41,7 @@ body {
 }
 
 #add-task-form input {
-    border: 1px solid #34073D;
+    border: none;
     border-radius: 30px;
     background: #fff;
     color: #34073D;

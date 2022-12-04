@@ -61,7 +61,7 @@ body {
 
 #add-button {
     background: #fff;
-    border: 1px solid #34073D;
+    border: none;
     border-radius: 40px;
     cursor: pointer;
     transition: .5s;
@@ -74,7 +74,7 @@ body {
 }
 
 #add-button:hover {
-    background-color: #560e64;
+    background-color: #067F06;
     color: #fff;
 }
 

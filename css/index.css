@@ -142,7 +142,7 @@ body {
     background-color: #E60000;
 }
 
-.hide {
+#task-list li.hide {
     display: none;
 }
 

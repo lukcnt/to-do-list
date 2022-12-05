@@ -8,12 +8,21 @@ function addTask() {
     
     if (task) {
         let newTask = template.cloneNode(true);
+        
         newTask.querySelector(".task-title").textContent = task;
         newTask.classList.remove("template");
         newTask.classList.remove("hide");
         list.appendChild(newTask);
         document.querySelector("#task-title").value = "";
+
+        let removeButton = newTask.querySelector(".remove-button").addEventListener("click", function() {
+            removeTask(this);
+        })
     }
+}
+
+function removeTask(task) {
+    task.parentNode.parentNode.remove(true);
 }
 
 addButton.addEventListener("click", function(event) {

@@ -45,7 +45,7 @@ body {
     border-radius: 30px;
     background: #fff;
     color: #34073D;
-    padding: 15px;
+    padding: 20px;
     font-size: 1.3rem;
     width: 90%;
     margin-right: 5px;
@@ -100,7 +100,7 @@ body {
     background-color: #fff;
     color: #34073D;
     margin-bottom: 10px;
-    padding-left: 15px;
+    padding-left: 20px;
     transition: .5s;
     font-size: 1.2rem;
     font-weight: bold;

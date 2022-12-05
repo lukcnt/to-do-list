@@ -38,6 +38,8 @@ body {
 #add-task-form {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #add-task-form input {

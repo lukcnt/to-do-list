@@ -149,5 +149,8 @@ body {
 #task-list li.done {
     background-color: #000;
     color: #fff;
+}
+
+.line-done {
     text-decoration: line-through;
 }
